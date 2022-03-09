@@ -1,0 +1,105 @@
+*{
+    margin:0;
+}
+body{
+    background:hsl(217, 54%, 11%);
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+}
+article{
+    width: 320px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 50px;
+    border-radius: 15px;
+    margin: 0;   
+    padding: 20px;
+}
+.imagen img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.our h2{
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 5px;
+}
+.our p{
+    color: hsla(215, 52%, 70%, 0.568);
+    padding-top: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.texto1{
+    margin-top:20px;
+    margin-bottom: 29px;
+}
+.texto1 img{
+    padding-left: 10px;
+    
+}
+.texto1 p{
+ display: inline;
+ font-family: 'Outfit', sans-serif;
+
+}
+.texto1 .verde{
+    color: hsl(178, 100%, 50%);
+
+}
+.texto1 .gris{
+  color: hsla(215, 52%, 70%, 0.568);
+}
+img.icon2{
+    padding-left: 110px;
+    margin-top:0px;
+}
+hr{
+   border-color: hsla(215, 52%, 70%, 0.363); 
+}
+.avatar{
+    display: flex;
+    margin: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.avatar p{
+    display:inline;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.avatar img{
+    width: 30px;
+    border: 1px solid #fff;
+    padding:0px;
+    border-radius:50%;  
+}
+.avatar .parra1{
+    color:  hsla(215, 52%, 70%, 0.568);
+}
+.avatar .parra2{
+    color:hsl(0, 0%, 100%);
+}
+/* Footer */
+footer{
+    position:absolute;
+    bottom:0;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(160, 132, 54);
+}
+footer span{
+    color: #fff;
+}
+
